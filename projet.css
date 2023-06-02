@@ -1,0 +1,214 @@
+
+/* style.css */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #66656538;
+}
+.navbar-brand{
+    font-family: 'Gabriela', serif;
+  text-align: center;
+  font-size: 39px;
+}
+.nav-link{
+    font-family: 'Gabriela', serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nnn{
+    column-count: 2;
+    list-style: none;
+}
+.nnnn{
+    column-count: 12;
+    list-style: none;
+}
+
+
+/* Styles de la section hero */
+.hero {
+    background-image:linear-gradient(rgba(253, 250, 250, 0),#8683831d), url(img4.jpg);
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+   text-align: center;
+    text-decoration: underline;
+    color: #f5f5f5;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+hr{
+   list-style: none;
+}
+.footer {
+    background-color: #222831;
+    color: #ffffff;
+    padding: 75px 0 40px 0;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+  text-align: center;
+  color:white;
+}
+.list{
+    list-style: none;
+}
+.lien{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.prop{
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.proposs{
+   text-align: justify;
+    column-count: 3;
+    font-size: 20px;
+    font-family: "lobster" 
+    
+}
+.mail{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.nof{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.call{
+    font-family: "lobster"
+    font-size: 36px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.respons{
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-bottom: 2%;
+    left: 10cm;
+}
+.hero p {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 26px;
+    margin-bottom: 280px;
+}
+.devepp{
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    justify-content: left;
+}
+.devep{
+    margin-top: 2%;
+    text-align: justify;
+    font-family: "lobster" ;
+    font-size: 21px;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Styles de la section services */
+
+/* style.css */
+
+/* ... Autres styles ... */
+
+
+
+
+/* Styles de la section services */
+.services {
+    padding: 50px 0;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.services .card {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.services .card-body {
+    padding: 20px;
+}
+
+.services .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services .card-text {
+    font-size: 16px;
+}
+
+
+/* Styles de la section plans */
+.plans {
+    padding: 50px 0;
+}
+
+.plans h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.plans .plan-card {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.plans .plan-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.plans .plan-details {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.plans .plan-details h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plans .plan-details p {
+    font-size: 16px;
+}
+
